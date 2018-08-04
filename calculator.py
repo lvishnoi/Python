@@ -1,14 +1,30 @@
-operation = input("Choose a operation:")
-operator = ["+", "-", "*", "/"]
-a = int(input("First Varaible: "))
-b = int(input("Second Varaible: "))
-for x in operator:
-    if x == "+":
+while True:
+   
+    operation = input("Choose a operation:")
+    if operation == "+":
+        a = int(input("First Varaible: "))
+        b = int(input("Second Varaible: "))
         c=a+b
         print (c)
-        break
-    if x == "-":
-        c = a-b
+        continue
+    if operation == "-":
+        a = int(input("First Varaible: "))
+        b = int(input("Second Varaible: "))
+        c=a-b
         print (c)
+        continue
+    if operation == "*":
+        a = int(input("First Varaible: "))
+        b = int(input("Second Varaible: "))
+        c=a*b
+        print (c)
+        continue
+    if operation == "/":
+        a = int(input("First Varaible: "))
+        b = int(input("Second Varaible: "))
+        c=a/b
+        print (c) 
+        continue
+    else:
+        print("bye..") 
         break
-    
