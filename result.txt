@@ -1,0 +1,2 @@
+LOCAL DIM sTests
+String should end with $ and default size.
