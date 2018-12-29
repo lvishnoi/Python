@@ -1,12 +1,21 @@
 DEFSUB 'CS_MX_Validator()
 REM
 LOCAL DIM iTest
+LOCAL DIM iTest, itest2
 LOCAL DIM iTest = 5
+LOCAL DIM iTest2
+LOCAL DIM iTest_
+LOCAL DIM iTest*
+LOCAL DIM iTestA
+LOCAL DIM ITest
+
 LOCAL DIM sTests
 LOCAL DIM sTest$
-LOCAL DIM sTestStr$1
+LOCAL DIM sTest$1
 LOCAL DIM sTestStr$10
 LOCAL DIM sTestStr$5
+LOCAL DIM sTestStr5
+
 REM
 
 END SUB

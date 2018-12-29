@@ -1,2 +1,10 @@
+LOCAL DIM iTest, itest2
+Error: Multiple declarations or initialization of variable with declaration.
+LOCAL DIM iTest = 5
+Error: Multiple declarations or initialization of variable with declaration.
+LOCAL DIM iTest*
+Error: Interger variable is not declared properly.
 LOCAL DIM sTests
-String should end with $ and default size.
+String should contain $.
+LOCAL DIM sTestStr5
+String should contain $.

@@ -1,9 +1,7 @@
 import re
 
-xx = "$"
-
-r1 = re.findall("[a-z]",xx)
-print(r1)
-
-if(r1 == []):
-    print("bjbgjkb")
+tmp = "dsds"
+var = re.search("[$]", tmp)
+print(var)
+if(var == ""):
+    print("hdsf")
