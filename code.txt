@@ -17,5 +17,7 @@ LOCAL DIM sTestStr$5
 LOCAL DIM sTestStr5
 
 REM
+REM
+RETURN value
 
 END SUB

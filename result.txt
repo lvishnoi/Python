@@ -4,7 +4,11 @@ LOCAL DIM iTest = 5
 Error: Multiple declarations or initialization of variable with declaration.
 LOCAL DIM iTest*
 Error: Interger variable is not declared properly.
+LOCAL DIM ITest
+Error: Invalid variable type.
 LOCAL DIM sTests
-String should contain $.
+String should contain $ symbol.
+LOCAL DIM sTest$
+String should contain default size.
 LOCAL DIM sTestStr5
-String should contain $.
+String should contain $ symbol.
